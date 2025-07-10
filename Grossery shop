@@ -1,0 +1,36 @@
+#include <stdio.h>
+2
+
+3
+int main() {
+4
+    int A4sheet=40;
+5
+    int Pen=20;
+6
+    int Pencil=10;
+7
+    int Eraser=5;
+8
+    scanf("%d",&A4sheet);
+9
+    scanf("%d",&Pen);
+10
+    scanf("%d",&Pencil);
+11
+    scanf("%d",&Eraser);
+12
+    printf("Items Details\n");
+13
+    printf("A4sheet:%d\n",A4sheet);
+14
+    printf("Pen:%d\n",Pen);
+15
+    printf("Pencil:%d\n", Pencil);
+16
+    printf("Eraser:%d\n",Eraser);
+17
+    return 0;
+18
+}
+19
