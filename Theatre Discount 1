@@ -1,0 +1,225 @@
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+int main() {
+6
+    int tickets;
+7
+    char refreshment, coupon, class_type;
+8
+    float ticket_cost = 0, base_cost = 0;
+9
+​
+10
+    // Input
+11
+    scanf("%d", &tickets);
+12
+    getchar(); // to consume newline
+13
+    scanf("%c", &refreshment);
+14
+    getchar(); // to consume newline
+15
+    scanf("%c", &coupon);
+16
+    getchar(); // to consume newline
+17
+    scanf("%c", &class_type);
+18
+​
+19
+    // Validate ticket count
+20
+    if(tickets < 5 || tickets > 40) {
+21
+        printf("Minimum of 5 and Maximum of 40 Tickets");
+22
+        return 0;
+23
+    }
+24
+​
+25
+    // Validate class
+26
+    if(class_type != 'k' && class_type != 'q') {
+27
+        printf("Invalid Input");
+28
+        return 0;
+29
+    }
+30
+​
+31
+    // Calculate base ticket cost
+32
+    if(class_type == 'k')
+33
+        base_cost = 75 * tickets;
+34
+    else
+35
+        base_cost = 150 * tickets;
+36
+​
+37
+    // Apply bulk discount
+38
+    if(tickets > 20)
+39
+        base_cost -= base_cost * 0.10;
+40
+​
+41
+    // Apply coupon discount
+42
+    if(coupon == 'y')
+43
+        base_cost -= base_cost * 0.02;
+44
+​
+45
+    // Add refreshment charges
+46
+    if(refreshment == 'y')
+47
+        base_cost += 50 * tickets;
+48
+​
+49
+    printf("Ticket cost:%.2f", base_cost);
+50
+    
+51
+    return 0;
+52
+}
+53
+​
+54
+​
+55
+​
+56
+​
+57
+​#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+int main() {
+6
+    int tickets;
+7
+    char refreshment, coupon, class_type;
+8
+    float ticket_cost = 0, base_cost = 0;
+9
+​
+10
+    // Input
+11
+    scanf("%d", &tickets);
+12
+    getchar(); // to consume newline
+13
+    scanf("%c", &refreshment);
+14
+    getchar(); // to consume newline
+15
+    scanf("%c", &coupon);
+16
+    getchar(); // to consume newline
+17
+    scanf("%c", &class_type);
+18
+​
+19
+    // Validate ticket count
+20
+    if(tickets < 5 || tickets > 40) {
+21
+        printf("Minimum of 5 and Maximum of 40 Tickets");
+22
+        return 0;
+23
+    }
+24
+​
+25
+    // Validate class
+26
+    if(class_type != 'k' && class_type != 'q') {
+27
+        printf("Invalid Input");
+28
+        return 0;
+29
+    }
+30
+​
+31
+    // Calculate base ticket cost
+32
+    if(class_type == 'k')
+33
+        base_cost = 75 * tickets;
+34
+    else
+35
+        base_cost = 150 * tickets;
+36
+​
+37
+    // Apply bulk discount
+38
+    if(tickets > 20)
+39
+        base_cost -= base_cost * 0.10;
+40
+​
+41
+    // Apply coupon discount
+42
+    if(coupon == 'y')
+43
+        base_cost -= base_cost * 0.02;
+44
+​
+45
+    // Add refreshment charges
+46
+    if(refreshment == 'y')
+47
+        base_cost += 50 * tickets;
+48
+​
+49
+    printf("Ticket cost:%.2f", base_cost);
+50
+    
+51
+    return 0;
+52
+}
+53
+​
+54
+​
+55
+​
+56
+​
+57
+​
