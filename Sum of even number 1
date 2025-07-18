@@ -1,0 +1,97 @@
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+int main() {
+6
+    int n, m;
+7
+    scanf("%d %d", &n, &m);
+8
+​
+9
+    // Check for constraint validity
+10
+    if (n <= 0 || m <= 0 || n >= 30 || m >= 30 || n > m) {
+11
+        printf("Invalid Input\n");
+12
+        return 0;
+13
+    }
+14
+​
+15
+    int sum = 0;
+16
+    for (int i = n; i <= m; i++) {
+17
+        if (i % 2 == 0) {
+18
+            sum += i;
+19
+        }
+20
+    }
+21
+​
+22
+    printf("%d\n", sum);
+23
+    return 0;
+24
+}
+25
+​#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+int main() {
+6
+    int n, m;
+7
+    scanf("%d %d", &n, &m);
+8
+​
+9
+    // Check for constraint validity
+10
+    if (n <= 0 || m <= 0 || n >= 30 || m >= 30 || n > m) {
+11
+        printf("Invalid Input\n");
+12
+        return 0;
+13
+    }
+14
+​
+15
+    int sum = 0;
+16
+    for (int i = n; i <= m; i++) {
+17
+        if (i % 2 == 0) {
+18
+            sum += i;
+19
+        }
+20
+    }
+21
+​
+22
+    printf("%d\n", sum);
+23
+    return 0;
+24
+}
+25
+​
