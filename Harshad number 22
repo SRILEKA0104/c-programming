@@ -1,0 +1,105 @@
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+int main() {
+6
+    int num, temp, digit, sum = 0;
+7
+​
+8
+    // Read input
+9
+    scanf("%d", &num);
+10
+    temp = num;
+11
+​
+12
+    // Calculate sum of digits
+13
+    while (temp > 0) {
+14
+        digit = temp % 10;
+15
+        sum += digit;
+16
+        temp /= 10;
+17
+    }
+18
+​
+19
+    // Check if number is divisible by sum of digits
+20
+    if (num % sum == 0) {
+21
+        printf("Harshad Number\n");
+22
+    } else {
+23
+        printf("Not Harshad Number\n");
+24
+    }
+25
+​
+26
+    return 0;
+27
+}#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+int main() {
+6
+    int num, temp, digit, sum = 0;
+7
+​
+8
+    // Read input
+9
+    scanf("%d", &num);
+10
+    temp = num;
+11
+​
+12
+    // Calculate sum of digits
+13
+    while (temp > 0) {
+14
+        digit = temp % 10;
+15
+        sum += digit;
+16
+        temp /= 10;
+17
+    }
+18
+​
+19
+    // Check if number is divisible by sum of digits
+20
+    if (num % sum == 0) {
+21
+        printf("Harshad Number\n");
+22
+    } else {
+23
+        printf("Not Harshad Number\n");
+24
+    }
+25
+​
+26
+    return 0;
+27
+}
