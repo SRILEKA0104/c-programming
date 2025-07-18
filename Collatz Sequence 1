@@ -1,0 +1,109 @@
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>#include <stdio.h>
+5
+​
+6
+int main() {
+7
+    int n, count = 0;
+8
+    
+9
+    printf("Enter a number\n");
+10
+    scanf("%d", &n);
+11
+    
+12
+    while (1) {
+13
+        printf("%d\n", n);
+14
+        if (n == 1) {
+15
+            break;
+16
+        }
+17
+        if (n % 2 == 0) {
+18
+            n = n / 2;
+19
+        } else {
+20
+            n = 3 * n + 1;
+21
+        }
+22
+        count++;
+23
+    }
+24
+​
+25
+    printf("count:%d\n", count);
+26
+    return 0;
+27
+}
+28
+​#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>#include <stdio.h>
+5
+​
+6
+int main() {
+7
+    int n, count = 0;
+8
+    
+9
+    printf("Enter a number\n");
+10
+    scanf("%d", &n);
+11
+    
+12
+    while (1) {
+13
+        printf("%d\n", n);
+14
+        if (n == 1) {
+15
+            break;
+16
+        }
+17
+        if (n % 2 == 0) {
+18
+            n = n / 2;
+19
+        } else {
+20
+            n = 3 * n + 1;
+21
+        }
+22
+        count++;
+23
+    }
+24
+​
+25
+    printf("count:%d\n", count);
+26
+    return 0;
+27
+}
+28
+​
