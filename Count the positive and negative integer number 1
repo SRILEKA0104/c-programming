@@ -1,0 +1,105 @@
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+int main() {
+5
+    int n, num;
+6
+    int positiveCount = 0, negativeCount = 0;
+7
+​
+8
+    // Read the number of elements
+9
+    scanf("%d", &n);
+10
+​
+11
+    // Read each number and count positives and negatives
+12
+    for(int i = 0; i < n; i++) {
+13
+        scanf("%d", &num);
+14
+        if(num > 0)
+15
+            positiveCount++;
+16
+        else if(num < 0)
+17
+            negativeCount++;
+18
+    }
+19
+​
+20
+    // Print the results
+21
+    printf("Count of Positive Integer is %.2f\n", (float)positiveCount);
+22
+    printf("Count of Negative Integer is %.2f\n", (float)negativeCount);
+23
+​
+24
+    return 0;
+25
+}
+26
+​
+27
+​#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+int main() {
+5
+    int n, num;
+6
+    int positiveCount = 0, negativeCount = 0;
+7
+​
+8
+    // Read the number of elements
+9
+    scanf("%d", &n);
+10
+​
+11
+    // Read each number and count positives and negatives
+12
+    for(int i = 0; i < n; i++) {
+13
+        scanf("%d", &num);
+14
+        if(num > 0)
+15
+            positiveCount++;
+16
+        else if(num < 0)
+17
+            negativeCount++;
+18
+    }
+19
+​
+20
+    // Print the results
+21
+    printf("Count of Positive Integer is %.2f\n", (float)positiveCount);
+22
+    printf("Count of Negative Integer is %.2f\n", (float)negativeCount);
+23
+​
+24
+    return 0;
+25
+}
+26
+​
+27
+​
