@@ -1,0 +1,213 @@
+#include <stdio.h>
+3
+int main() {
+4
+​
+5
+    int n;
+6
+​
+7
+    scanf("%d", &n);
+8
+​
+9
+​
+10
+​
+11
+    if (n <= 0) {
+12
+​
+13
+        printf("Invalid Input\n");
+14
+​
+15
+        return 0;
+16
+​
+17
+    }
+18
+​
+19
+​
+20
+​
+21
+    int age, youngest = 1000, oldest = -1;
+22
+​
+23
+    for (int i = 0; i < n; i++) {
+24
+​
+25
+        scanf("%d", &age);
+26
+​
+27
+        if (age < 0) {
+28
+​
+29
+            printf("Invalid Input\n");
+30
+​
+31
+            return 0;
+32
+​
+33
+        }
+34
+​
+35
+        if (age < youngest)
+36
+​
+37
+            youngest = age;
+38
+​
+39
+        if (age > oldest)
+40
+​
+41
+            oldest = age;
+42
+​
+43
+    }
+44
+​
+45
+​
+46
+​
+47
+    printf("Youngest=%d\n", youngest);
+48
+​
+49
+    printf("Oldest=%d\n", oldest);
+50
+​
+51
+​
+52
+​
+53
+    return 0;
+54
+​
+55
+}#include <stdio.h>
+3
+int main() {
+4
+​
+5
+    int n;
+6
+​
+7
+    scanf("%d", &n);
+8
+​
+9
+​
+10
+​
+11
+    if (n <= 0) {
+12
+​
+13
+        printf("Invalid Input\n");
+14
+​
+15
+        return 0;
+16
+​
+17
+    }
+18
+​
+19
+​
+20
+​
+21
+    int age, youngest = 1000, oldest = -1;
+22
+​
+23
+    for (int i = 0; i < n; i++) {
+24
+​
+25
+        scanf("%d", &age);
+26
+​
+27
+        if (age < 0) {
+28
+​
+29
+            printf("Invalid Input\n");
+30
+​
+31
+            return 0;
+32
+​
+33
+        }
+34
+​
+35
+        if (age < youngest)
+36
+​
+37
+            youngest = age;
+38
+​
+39
+        if (age > oldest)
+40
+​
+41
+            oldest = age;
+42
+​
+43
+    }
+44
+​
+45
+​
+46
+​
+47
+    printf("Youngest=%d\n", youngest);
+48
+​
+49
+    printf("Oldest=%d\n", oldest);
+50
+​
+51
+​
+52
+​
+53
+    return 0;
+54
+​
+55
+}
