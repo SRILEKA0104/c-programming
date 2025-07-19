@@ -1,0 +1,197 @@
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+# Read input size
+6
+n = int(input()){
+7
+# Read n elements into a list
+8
+arr = [int(input()) for _ in range(n)]
+9
+​
+10
+# Check for even, odd, or mixed
+11
+even_count = 0
+12
+odd_count = 0
+13
+​
+14
+for num in arr:
+15
+    if num % 2 == 0:
+16
+        even_count += 1
+17
+    else:
+18
+        odd_count += 1
+19
+​
+20
+# Determine and print the result
+21
+if even_count == n:
+22
+    print("Even")
+23
+elif odd_count == n:
+24
+    print("Odd")
+25
+else:
+26
+    print("Mixed")# Read input size
+27
+n = int(input())
+28
+​
+29
+# Read n elements into a list
+30
+arr = [int(input()) for _ in range(n)]
+31
+​
+32
+# Check for even, odd, or mixed
+33
+even_count = 0
+34
+odd_count = 0
+35
+​
+36
+for num in arr:
+37
+    if num % 2 == 0:
+38
+        even_count += 1
+39
+    else:
+40
+        odd_count += 1
+41
+​
+42
+# Determine and print the result
+43
+if even_count == n:
+44
+    print("Even")
+45
+elif odd_count == n:
+46
+    print("Odd")
+47
+else:
+48
+    print("Mied")
+49
+    return 0;
+50
+}#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+# Read input size
+6
+n = int(input()){
+7
+# Read n elements into a list
+8
+arr = [int(input()) for _ in range(n)]
+9
+​
+10
+# Check for even, odd, or mixed
+11
+even_count = 0
+12
+odd_count = 0
+13
+​
+14
+for num in arr:
+15
+    if num % 2 == 0:
+16
+        even_count += 1
+17
+    else:
+18
+        odd_count += 1
+19
+​
+20
+# Determine and print the result
+21
+if even_count == n:
+22
+    print("Even")
+23
+elif odd_count == n:
+24
+    print("Odd")
+25
+else:
+26
+    print("Mixed")# Read input size
+27
+n = int(input())
+28
+​
+29
+# Read n elements into a list
+30
+arr = [int(input()) for _ in range(n)]
+31
+​
+32
+# Check for even, odd, or mixed
+33
+even_count = 0
+34
+odd_count = 0
+35
+​
+36
+for num in arr:
+37
+    if num % 2 == 0:
+38
+        even_count += 1
+39
+    else:
+40
+        odd_count += 1
+41
+​
+42
+# Determine and print the result
+43
+if even_count == n:
+44
+    print("Even")
+45
+elif odd_count == n:
+46
+    print("Odd")
+47
+else:
+48
+    print("Mied")
+49
+    return 0;
+50
+}
