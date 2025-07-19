@@ -1,0 +1,169 @@
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+int main() {
+5
+    int a, b;
+6
+    char op;
+7
+​
+8
+    // Read input
+9
+    scanf("%d", &a);
+10
+    scanf("%d", &b);
+11
+    scanf(" %c", &op);  // Note the space before %c to consume any leftover newline
+12
+​
+13
+    // Perform operation using switch-case
+14
+    switch(op) {
+15
+        case '+':
+16
+            printf("Addition of two number is %.1f\n", (float)(a + b));
+17
+            break;
+18
+        case '-':
+19
+            printf("Subtraction of two number is %.1f\n", (float)(a - b));
+20
+            break;
+21
+        case '*':
+22
+            printf("Multiplication of two number is %.1f\n", (float)(a * b));
+23
+            break;
+24
+        case '/':
+25
+            if (b != 0)
+26
+                printf("Division of two number is %.1f\n", (float)a / b);
+27
+            else
+28
+                printf("Invalid Input\n");
+29
+            break;
+30
+        case '%':
+31
+            if (b != 0)
+32
+                printf("Modulo of two number is %.1f\n", (float)(a % b));
+33
+            else
+34
+                printf("Invalid Input\n");
+35
+            break;
+36
+        default:
+37
+            printf("Invalid Input\n");
+38
+    }
+39
+​
+40
+    return 0;
+41
+}
+42
+    
+43
+​#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+int main() {
+5
+    int a, b;
+6
+    char op;
+7
+​
+8
+    // Read input
+9
+    scanf("%d", &a);
+10
+    scanf("%d", &b);
+11
+    scanf(" %c", &op);  // Note the space before %c to consume any leftover newline
+12
+​
+13
+    // Perform operation using switch-case
+14
+    switch(op) {
+15
+        case '+':
+16
+            printf("Addition of two number is %.1f\n", (float)(a + b));
+17
+            break;
+18
+        case '-':
+19
+            printf("Subtraction of two number is %.1f\n", (float)(a - b));
+20
+            break;
+21
+        case '*':
+22
+            printf("Multiplication of two number is %.1f\n", (float)(a * b));
+23
+            break;
+24
+        case '/':
+25
+            if (b != 0)
+26
+                printf("Division of two number is %.1f\n", (float)a / b);
+27
+            else
+28
+                printf("Invalid Input\n");
+29
+            break;
+30
+        case '%':
+31
+            if (b != 0)
+32
+                printf("Modulo of two number is %.1f\n", (float)(a % b));
+33
+            else
+34
+                printf("Invalid Input\n");
+35
+            break;
+36
+        default:
+37
+            printf("Invalid Input\n");
+38
+    }
+39
+​
+40
+    return 0;
+41
+}
+42
+    
+43
+​
